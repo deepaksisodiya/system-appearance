@@ -48,11 +48,11 @@ export default {
   },
   methods: {
     darkModeListener() {
-			this.appearance = 'dark';
+      this.appearance = 'dark';
     },
 
     lightModeListener() {
-			this.appearance = 'light';
+      this.appearance = 'light';
     },
 
     hasNoSupport() {
