@@ -38,11 +38,11 @@ import systemAppearance from "system-appearance";
 
 export default {
   name: "Appearance",
-	data() {
-		return {
-			appearance: null,
-		}
-	}
+  data() {
+    return {
+      appearance: null,
+    }
+  }
   mounted() {
     systemAppearance(this.dark, this.light, this.hasNoSupport);
   },
@@ -56,7 +56,7 @@ export default {
     },
 
     hasNoSupport() {
-			this.appearance = null;
+      this.appearance = null;
       console.log('You specified no preference for a color scheme or your browser does not support it.');
     }
   }
