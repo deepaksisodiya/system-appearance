@@ -1,0 +1,11 @@
+{
+  "name": "system-appearance",
+  "version": "1.0.0",
+  "description": "set event listener for light and dark mode if system apppearance is available in os",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Sisodiya <deepak.sisodiya@gmail.com>",
+  "license": "MIT"
+}
