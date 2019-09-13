@@ -9,6 +9,8 @@ npm install system-appearance --save
 ### How to use it with vanila JavaScript
 
 ```
+import systemAppearance from "system-appearance";
+
 setColorScheme(darkModeListener, lightModeListener, hasNoSupport);
 
 function lightModeListener() {
